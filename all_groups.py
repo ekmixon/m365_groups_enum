@@ -68,8 +68,6 @@ def enumerate_groups(graph_client):
         print(sharepoint_url)
     except Exception as e:
         print("failed")
-        pass
-
     groups = []
     print("Getting all groups... ")
     url = "https://graph.microsoft.com/beta/groups?" \
